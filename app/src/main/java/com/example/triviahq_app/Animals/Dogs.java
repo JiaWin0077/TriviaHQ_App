@@ -11,14 +11,14 @@ public class Dogs {
     };
 
     public String mChoices[][] = {
-            {"German Shepard", "Beagle", "Labrador Retriever", "Siberian Husky"},
+            {"German Shepard", "Beagle", "Labrador", "Siberian Husky"},
             {"Laika", "Belka", "Strelka", "Apollo"},
             {"Dogmeat", "Snoopy", "Clifford", "Pluto"},
             {"Australian Cattle Dog", "Mutt", "Chihuahua", "Pug"}
     };
 
     private String mCorrectAnswers[] = {
-            "Labrador Retriever",
+            "Labrador",
             "Laika",
             "Snoopy",
             "Australian Cattle Dog"};
