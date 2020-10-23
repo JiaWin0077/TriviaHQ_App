@@ -1,10 +1,9 @@
-package com.example.triviahq_app.Animals;
+package com.example.triviahq_app.Animals.Dogs;
 
 import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import com.example.triviahq_app.R;

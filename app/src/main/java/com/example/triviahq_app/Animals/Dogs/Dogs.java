@@ -1,4 +1,4 @@
-package com.example.triviahq_app.Animals;
+package com.example.triviahq_app.Animals.Dogs;
 
 public class Dogs {
 

@@ -11,7 +11,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
 
-        <activity android:name=".Animals.DogFinalPage">
+        <activity android:name=".Animals.Dogs.DogFinalPage">
         </activity>
         <activity
                 android:name=".MenuScreen"
@@ -29,7 +29,7 @@
         </activity>
         <activity android:name=".Animals.AnimalSubcategory">
         </activity>
-        <activity android:name=".Animals.DogQuestions">
+        <activity android:name=".Animals.Dogs.DogQuestions">
         </activity>
     </application>
 
