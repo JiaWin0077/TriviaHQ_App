@@ -10,7 +10,12 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-
+        <activity android:name=".SuperHeroes.DC.DCFinalPage">
+        </activity>
+        <activity android:name=".SuperHeroes.DC.DCQuestions">
+        </activity>
+        <activity android:name=".SuperHeroes.SuperHeroesSubcategory">
+        </activity>
         <activity android:name=".Animals.Dogs.DogFinalPage">
         </activity>
         <activity
