@@ -10,6 +10,14 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".SuperHeroes.Other.OtherFinalPage">
+        </activity>
+        <activity android:name=".SuperHeroes.Other.OtherQuestions">
+        </activity>
+        <activity android:name=".SuperHeroes.Marvel.MarvelFinalPage">
+        </activity>
+        <activity android:name=".SuperHeroes.Marvel.MarvelQuestions">
+        </activity>
         <activity android:name=".SuperHeroes.DC.DCFinalPage">
         </activity>
         <activity android:name=".SuperHeroes.DC.DCQuestions">

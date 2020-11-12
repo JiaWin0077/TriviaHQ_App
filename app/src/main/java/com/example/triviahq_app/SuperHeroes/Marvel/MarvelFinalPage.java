@@ -1,4 +1,4 @@
-package com.example.triviahq_app.SuperHeroes.DC;
+package com.example.triviahq_app.SuperHeroes.Marvel;
 
 import android.content.Intent;
 import android.view.View;
@@ -9,9 +9,9 @@ import android.os.Bundle;
 import com.example.triviahq_app.MenuScreen;
 import com.example.triviahq_app.R;
 
-public class DCFinalPage extends AppCompatActivity {
+public class MarvelFinalPage extends AppCompatActivity {
 
-    private DC dc = new DC();
+    private Marvel marvel = new Marvel();
 
     Button againButton, mainButton;
     TextView finalScore;
@@ -19,20 +19,20 @@ public class DCFinalPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_d_c_final_page);
+        setContentView(R.layout.activity_marvel_final_page);
 
         //Show final score
         finalScore = findViewById(R.id.scoreText);
         Bundle bundle = getIntent().getExtras();
         int score = bundle.getInt("finalScore");
-        finalScore.setText("Your final score is: " + score + "/" + dc.mQuestions.length);
+        finalScore.setText("Your final score is: " + score + "/" + marvel.mQuestions.length);
 
         //Intent to play the same quiz again
         againButton = findViewById(R.id.playAgain);
         againButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent a = new Intent(DCFinalPage.this, DCQuestions.class);
+                Intent a = new Intent(MarvelFinalPage.this, MarvelQuestions.class);
                 startActivity(a);
             }
         });
@@ -42,7 +42,7 @@ public class DCFinalPage extends AppCompatActivity {
         mainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent b = new Intent(DCFinalPage.this, MenuScreen.class);
+                Intent b = new Intent(MarvelFinalPage.this, MenuScreen.class);
                 startActivity(b);
             }
         });

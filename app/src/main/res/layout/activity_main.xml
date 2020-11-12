@@ -32,12 +32,12 @@
             android:layout_width="367dp"
             android:layout_height="116dp" android:id="@+id/button10"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/button9" android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/SuperHerosButton" android:layout_marginBottom="24dp"
     />
     <Button
             android:text="Superheros"
             android:layout_width="367dp"
-            android:layout_height="116dp" android:id="@+id/button9"
+            android:layout_height="116dp" android:id="@+id/SuperHerosButton"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginBottom="32dp"
             app:layout_constraintHorizontal_bias="0.522"/>

@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import com.example.triviahq_app.R;
 import com.example.triviahq_app.SuperHeroes.DC.DCQuestions;
+import com.example.triviahq_app.SuperHeroes.Marvel.MarvelQuestions;
+import com.example.triviahq_app.SuperHeroes.Other.OtherQuestions;
 
 public class SuperHeroesSubcategory extends AppCompatActivity {
 
@@ -26,24 +28,24 @@ public class SuperHeroesSubcategory extends AppCompatActivity {
             }
         });
 
-//        //Move to marvel questions if clicked on marvel category
-//        Button Marvelbut = findViewById(R.id.Marvelbutton);
-//        Marvelbut.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent Marvel = new Intent(SuperHeroesSubcategory.this, MarvelQuestions.class);
-//                startActivity(Marvel);
-//            }
-//        });
+        //Move to marvel questions if clicked on marvel category
+        Button Marvelbut = findViewById(R.id.Marvelbutton);
+        Marvelbut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Marvel = new Intent(SuperHeroesSubcategory.this, MarvelQuestions.class);
+                startActivity(Marvel);
+            }
+        });
 
-//        //Move to other questions if clicked on other category
-//        Button Otherbut = findViewById(R.id.Otherbutton);
-//        Otherbut.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent Other = new Intent(SuperHeroesSubcategory.this, OtherQuestions.class);
-//                startActivity(Other);
-//            }
-//        });
+        //Move to other questions if clicked on other category
+        Button Otherbut = findViewById(R.id.Otherbutton);
+        Otherbut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Other = new Intent(SuperHeroesSubcategory.this, OtherQuestions.class);
+                startActivity(Other);
+            }
+        });
     }
 }

@@ -6,6 +6,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import com.example.triviahq_app.Animals.AnimalSubcategory;
+import com.example.triviahq_app.SuperHeroes.SuperHeroesSubcategory;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,6 +32,15 @@ public class MainActivity extends AppCompatActivity {
         //Norse Myth button command
 
         //Superheroes button command
+        Button superHeroButton = findViewById(R.id.SuperHerosButton);
+        superHeroButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent SuperHero = new Intent(MainActivity.this, SuperHeroesSubcategory.class);
+                startActivity(SuperHero);
+            }
+        });
+
 
     }
 
