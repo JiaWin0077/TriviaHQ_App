@@ -17,7 +17,7 @@
     <Button
             android:text="History"
             android:layout_width="367dp"
-            android:layout_height="116dp" android:id="@+id/button8"
+            android:layout_height="116dp" android:id="@+id/HistoryButton"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toTopOf="@+id/button" android:layout_marginBottom="20dp"/>
     <Button

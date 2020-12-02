@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".History.HistorySubcategory">
+
+    <Button
+            android:text="Colonial America"
+            android:layout_width="337dp"
+            android:layout_height="139dp" android:id="@+id/Button3"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="366dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="212dp" app:layout_constraintVertical_bias="0.482"/>
+    <Button
+            android:text="Ancient"
+            android:layout_width="337dp"
+            android:layout_height="139dp" android:id="@+id/Button1"
+            android:textSize="36sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="24dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="554dp"/>
+    <Button
+            android:text="Renaissance"
+            android:layout_width="337dp"
+            android:layout_height="139dp" android:id="@+id/Button2"
+            android:textSize="36sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="196dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="382dp"/>
+    <Button
+            android:text="Modern"
+            android:layout_width="337dp"
+            android:layout_height="139dp" android:id="@+id/Button4"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="539dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="39dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
