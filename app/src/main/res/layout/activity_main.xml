@@ -25,12 +25,12 @@
             android:layout_width="367dp"
             android:layout_height="116dp" android:id="@+id/button"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/button10" android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/MythologyButton" android:layout_marginBottom="16dp"
     />
     <Button
-            android:text="Norse Mythology"
+            android:text="Mythology"
             android:layout_width="367dp"
-            android:layout_height="116dp" android:id="@+id/button10"
+            android:layout_height="116dp" android:id="@+id/MythologyButton"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toTopOf="@+id/SuperHerosButton" android:layout_marginBottom="24dp"
     />
