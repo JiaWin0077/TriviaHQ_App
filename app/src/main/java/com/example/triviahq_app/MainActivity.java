@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import com.example.triviahq_app.Animals.AnimalSubcategory;
 import com.example.triviahq_app.SuperHeroes.SuperHeroesSubcategory;
+import com.example.triviahq_app.History.HistorySubcategory;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,7 +27,14 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //History button command
-
+        Button historyButton = findViewById(R.id.HistoryButton);
+        historyButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent History = new Intent(MainActivity.this, HistorySubcategory.class);
+                startActivity(History);
+            }
+        });
         //Sports button command
 
         //Norse Myth button command
