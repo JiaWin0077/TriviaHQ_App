@@ -17,14 +17,14 @@
             android:layout_marginTop="366dp" app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="212dp" app:layout_constraintVertical_bias="1.0"/>
     <Button
-            android:text="Dogs"
+            android:text="Reptiles"
             android:layout_width="337dp"
-            android:layout_height="139dp" android:id="@+id/DogsButton"
+            android:layout_height="139dp" android:id="@+id/ReptilesButton"
             android:textSize="36sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="24dp" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="554dp"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="539dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="39dp" app:layout_constraintVertical_bias="1.0"/>
     <Button
             android:text="Cats"
             android:layout_width="337dp"
@@ -33,14 +33,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="196dp" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="382dp"/>
+            android:layout_marginBottom="382dp" app:layout_constraintVertical_bias="1.0"/>
     <Button
-            android:text="Reptiles"
+            android:text="Dogs"
             android:layout_width="337dp"
-            android:layout_height="139dp" android:id="@+id/ReptilesButton"
+            android:layout_height="139dp" android:id="@+id/DogsButton"
             android:textSize="36sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="539dp" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="39dp"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="24dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="554dp" app:layout_constraintVertical_bias="1.0"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

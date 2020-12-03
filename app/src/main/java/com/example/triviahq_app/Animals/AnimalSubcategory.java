@@ -5,7 +5,10 @@ import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import com.example.triviahq_app.Animals.Birds.BirdQuestions;
 import com.example.triviahq_app.Animals.Dogs.DogQuestions;
+import com.example.triviahq_app.Animals.Cats.CatsQuestions;
+import com.example.triviahq_app.Animals.Reptile.ReptileQuestions;
 import com.example.triviahq_app.R;
 
 public class AnimalSubcategory extends AppCompatActivity {
@@ -25,6 +28,35 @@ public class AnimalSubcategory extends AppCompatActivity {
             }
         });
 
+        //Move to cat questions
+        Button CatButton = findViewById(R.id.CatsButton);
+        CatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Cats = new Intent(AnimalSubcategory.this, CatsQuestions.class);
+                startActivity(Cats);
+            }
+        });
+
+        //Move to bird questions
+        Button BirdButton = findViewById(R.id.BirdsButton);
+        BirdButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Birds = new Intent(AnimalSubcategory.this, BirdQuestions.class);
+                startActivity(Birds);
+            }
+        });
+
+        //Move to reptile questions
+        Button ReptileButton = findViewById(R.id.ReptilesButton);
+        ReptileButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Reptile = new Intent(AnimalSubcategory.this, ReptileQuestions.class);
+                startActivity(Reptile);
+            }
+        });
 
     }
 }

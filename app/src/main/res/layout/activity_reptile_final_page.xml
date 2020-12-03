@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".Animals.Dogs.DogFinalPage">
+        tools:context=".Animals.Reptile.ReptileFinalPage">
 
     <TextView
             android:text="You finished!"
@@ -18,7 +18,7 @@
             app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="575dp"
             app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="1.0"/>
     <TextView
-            android:text="Score"
+            android:text="TextView"
             android:layout_width="264dp"
             android:layout_height="130dp" android:id="@+id/scoreText"
             android:textColor="#1B1919" android:textSize="30sp"

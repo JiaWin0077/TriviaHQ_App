@@ -10,7 +10,20 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-
+        <activity android:name=".Animals.Reptile.ReptileFinalPage">
+        </activity>
+        <activity android:name=".Animals.Reptile.ReptileQuestions">
+        </activity>
+        <activity android:name=".Animals.Birds.BirdFinalPage">
+        </activity>
+        <activity android:name=".Animals.Birds.BirdQuestions">
+        </activity>
+        <activity android:name=".HistorySubcategory">
+        </activity>
+        <activity android:name=".Animals.Cats.CatsFinalPage">
+        </activity>
+        <activity android:name=".Animals.Cats.CatsQuestions">
+        </activity>
         <activity android:name=".Animals.Dogs.DogFinalPage">
         </activity>
         <activity

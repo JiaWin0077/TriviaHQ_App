@@ -1,4 +1,4 @@
-package com.example.triviahq_app.Animals.Dogs;
+package com.example.triviahq_app.Animals.Cats;
 
 import android.content.Intent;
 import android.view.View;
@@ -6,11 +6,12 @@ import android.widget.Button;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import com.example.triviahq_app.Animals.Dogs.DogFinalPage;
 import com.example.triviahq_app.R;
 
-public class DogQuestions extends AppCompatActivity {
+public class CatsQuestions extends AppCompatActivity {
 
-    private DogsLibrary dogsLibrary = new DogsLibrary();
+    private CatsLibrary Cats = new CatsLibrary();
 
     private TextView Score;
     private TextView Question;
@@ -26,7 +27,7 @@ public class DogQuestions extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dog_questions);
+        setContentView(R.layout.activity_cats_questions);
 
         Score = findViewById(R.id.ScoreBox);
         Question = findViewById(R.id.QuestionBox);
@@ -47,12 +48,12 @@ public class DogQuestions extends AppCompatActivity {
                     currentScore = currentScore + 1;
                     updateScore(currentScore);
 
-                    if (questionNum == dogsLibrary.mQuestions.length) {
-                        Intent i = new Intent(DogQuestions.this, DogFinalPage.class);
+                    if (questionNum == Cats.mQuestions.length) {
+                        Intent i = new Intent(CatsQuestions.this, DogFinalPage.class);
                         Bundle bundle = new Bundle();
                         bundle.putInt("finalScore", currentScore);
                         i.putExtras(bundle);
-                        DogQuestions.this.finish();
+                        CatsQuestions.this.finish();
                         startActivity(i);
                     } else {
                         updateQuestion();
@@ -60,12 +61,12 @@ public class DogQuestions extends AppCompatActivity {
                 }
 
                 else {
-                    if (questionNum == dogsLibrary.mQuestions.length) {
-                        Intent i = new Intent(DogQuestions.this, DogFinalPage.class);
+                    if (questionNum == Cats.mQuestions.length) {
+                        Intent i = new Intent(CatsQuestions.this, DogFinalPage.class);
                         Bundle bundle = new Bundle();
                         bundle.putInt("finalScore", currentScore);
                         i.putExtras(bundle);
-                        DogQuestions.this.finish();
+                        CatsQuestions.this.finish();
                         startActivity(i);
                     } else {
                         updateQuestion();
@@ -85,12 +86,12 @@ public class DogQuestions extends AppCompatActivity {
                     currentScore = currentScore + 1;
                     updateScore(currentScore);
 
-                    if (questionNum == dogsLibrary.mQuestions.length) {
-                        Intent i = new Intent(DogQuestions.this, DogFinalPage.class);
+                    if (questionNum == Cats.mQuestions.length) {
+                        Intent i = new Intent(CatsQuestions.this, DogFinalPage.class);
                         Bundle bundle = new Bundle();
                         bundle.putInt("finalScore", currentScore);
                         i.putExtras(bundle);
-                        DogQuestions.this.finish();
+                        CatsQuestions.this.finish();
                         startActivity(i);
                     } else {
                         updateQuestion();
@@ -98,12 +99,12 @@ public class DogQuestions extends AppCompatActivity {
                 }
 
                 else {
-                    if (questionNum == dogsLibrary.mQuestions.length) {
-                        Intent i = new Intent(DogQuestions.this, DogFinalPage.class);
+                    if (questionNum == Cats.mQuestions.length) {
+                        Intent i = new Intent(CatsQuestions.this, DogFinalPage.class);
                         Bundle bundle = new Bundle();
                         bundle.putInt("finalScore", currentScore);
                         i.putExtras(bundle);
-                        DogQuestions.this.finish();
+                        CatsQuestions.this.finish();
                         startActivity(i);
                     } else {
                         updateQuestion();
@@ -122,12 +123,12 @@ public class DogQuestions extends AppCompatActivity {
                     currentScore = currentScore + 1;
                     updateScore(currentScore);
 
-                    if (questionNum == dogsLibrary.mQuestions.length) {
-                        Intent i = new Intent(DogQuestions.this, DogFinalPage.class);
+                    if (questionNum == Cats.mQuestions.length) {
+                        Intent i = new Intent(CatsQuestions.this, DogFinalPage.class);
                         Bundle bundle = new Bundle();
                         bundle.putInt("finalScore", currentScore);
                         i.putExtras(bundle);
-                        DogQuestions.this.finish();
+                        CatsQuestions.this.finish();
                         startActivity(i);
                     } else {
                         updateQuestion();
@@ -135,12 +136,12 @@ public class DogQuestions extends AppCompatActivity {
                 }
 
                 else {
-                    if (questionNum == dogsLibrary.mQuestions.length) {
-                        Intent i = new Intent(DogQuestions.this, DogFinalPage.class);
+                    if (questionNum == Cats.mQuestions.length) {
+                        Intent i = new Intent(CatsQuestions.this, DogFinalPage.class);
                         Bundle bundle = new Bundle();
                         bundle.putInt("finalScore", currentScore);
                         i.putExtras(bundle);
-                        DogQuestions.this.finish();
+                        CatsQuestions.this.finish();
                         startActivity(i);
                     } else {
                         updateQuestion();
@@ -159,12 +160,12 @@ public class DogQuestions extends AppCompatActivity {
                     currentScore = currentScore + 1;
                     updateScore(currentScore);
 
-                    if (questionNum == dogsLibrary.mQuestions.length) {
-                        Intent i = new Intent(DogQuestions.this, DogFinalPage.class);
+                    if (questionNum == Cats.mQuestions.length) {
+                        Intent i = new Intent(CatsQuestions.this, DogFinalPage.class);
                         Bundle bundle = new Bundle();
                         bundle.putInt("finalScore", currentScore);
                         i.putExtras(bundle);
-                        DogQuestions.this.finish();
+                        CatsQuestions.this.finish();
                         startActivity(i);
                     } else {
                         updateQuestion();
@@ -172,12 +173,12 @@ public class DogQuestions extends AppCompatActivity {
                 }
 
                 else {
-                    if (questionNum == dogsLibrary.mQuestions.length) {
-                        Intent i = new Intent(DogQuestions.this, DogFinalPage.class);
+                    if (questionNum == Cats.mQuestions.length) {
+                        Intent i = new Intent(CatsQuestions.this, DogFinalPage.class);
                         Bundle bundle = new Bundle();
                         bundle.putInt("finalScore", currentScore);
                         i.putExtras(bundle);
-                        DogQuestions.this.finish();
+                        CatsQuestions.this.finish();
                         startActivity(i);
                     } else {
                         updateQuestion();
@@ -189,13 +190,13 @@ public class DogQuestions extends AppCompatActivity {
     }
 
     private void updateQuestion() {
-        Question.setText(dogsLibrary.getQuestion(questionNum));
-        button1.setText(dogsLibrary.getChoice1(questionNum));
-        button2.setText(dogsLibrary.getChoice2(questionNum));
-        button3.setText(dogsLibrary.getChoice3(questionNum));
-        button4.setText(dogsLibrary.getChoice4(questionNum));
+        Question.setText(Cats.getQuestion(questionNum));
+        button1.setText(Cats.getChoice1(questionNum));
+        button2.setText(Cats.getChoice2(questionNum));
+        button3.setText(Cats.getChoice3(questionNum));
+        button4.setText(Cats.getChoice4(questionNum));
 
-        Answer = dogsLibrary.getCorrectAnswer(questionNum);
+        Answer = Cats.getCorrectAnswer(questionNum);
         questionNum++;
     }
 
@@ -204,5 +205,3 @@ public class DogQuestions extends AppCompatActivity {
     }
 
 }
-
-
