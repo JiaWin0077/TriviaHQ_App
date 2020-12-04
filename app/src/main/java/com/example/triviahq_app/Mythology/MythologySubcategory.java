@@ -11,6 +11,7 @@ import com.example.triviahq_app.Mythology.Abrahamic.Abrahamic;
 import com.example.triviahq_app.Mythology.Abrahamic.AbrahamicQuestions;
 import com.example.triviahq_app.Mythology.Celtic.CelticQuestions;
 import com.example.triviahq_app.Mythology.Greek_Roman.Greek_RomanQuestions;
+import com.example.triviahq_app.Mythology.Norse.NorseQuestions;
 import com.example.triviahq_app.R;
 import com.example.triviahq_app.SuperHeroes.DC.DCQuestions;
 import com.example.triviahq_app.SuperHeroes.Marvel.MarvelQuestions;
@@ -65,6 +66,14 @@ public class MythologySubcategory extends AppCompatActivity {
             }
         });
 
-
+        //pull up the greek/roman category
+        Button norseButton = findViewById(R.id.NorseButton);
+        greek_romanButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Norse = new Intent(com.example.triviahq_app.Mythology.MythologySubcategory.this, NorseQuestions.class);
+                startActivity(Norse);
+            }
+        });
     }
 }
