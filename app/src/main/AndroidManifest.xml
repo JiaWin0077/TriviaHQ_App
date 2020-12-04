@@ -11,7 +11,11 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
 
-        <!--superheroes-->
+        <!--superheroes category -->
+        <activity android:name=".SuperHeroes.SuperHeroesSubcategory">
+        </activity>
+
+        <!--superheroes subcategories-->
         <activity android:name=".SuperHeroes.Other.OtherFinalPage">
         </activity>
         <activity android:name=".SuperHeroes.Other.OtherQuestions">
@@ -24,20 +28,22 @@
         </activity>
         <activity android:name=".SuperHeroes.DC.DCQuestions">
         </activity>
-        <activity android:name=".SuperHeroes.SuperHeroesSubcategory">
+
+        <!--animals category-->
+        <activity android:name=".Animals.AnimalSubcategory">
         </activity>
 
-        <!--animals-->
+        <!--animals subcategories-->
         <activity android:name=".Animals.Dogs.DogFinalPage">
-        </activity>
-        <activity android:name=".Animals.AnimalSubcategory">
         </activity>
         <activity android:name=".Animals.Dogs.DogQuestions">
         </activity>
 
-        <!--mythology-->
+        <!--mythology category-->
         <activity android:name=".Mythology.MythologySubcategory">
         </activity>
+
+        <!--mythology subcategories-->
         <activity android:name=".Mythology.Abrahamic.AbrahamicFinalPage">
         </activity>
         <activity android:name=".Mythology.Abrahamic.AbrahamicQuestions">
@@ -46,7 +52,6 @@
         </activity>
         <activity android:name=".Mythology.Celtic.CelticQuestions">
         </activity>
-        <!--
         <activity android:name=".Mythology.Greek_Roman.Greek_RomanFinalPage">
         </activity>
         <activity android:name=".Mythology.Greek_Roman.Greek_RomanQuestions">
@@ -55,11 +60,12 @@
         </activity>
         <activity android:name=".Mythology.Norse.NorseQuestions">
         </activity>
-        -->
 
-        <!--history-->
+        <!--history category-->
         <activity android:name=".History.HistorySubcategory">
         </activity>
+
+        <!--history subcategories-->
         <activity android:name=".History.Ancient.AncientFinalPage">
         </activity>
         <activity android:name=".History.Ancient.AncientQuestions">
@@ -77,7 +83,7 @@
         <activity android:name=".History.Renaissance.RenaissanceQuestions">
         </activity>
 
-        <!--sports-->
+        <!--sports category-->
         <!--
         <activity android:name=".Sports.SportsSubcategory">
         </activity>

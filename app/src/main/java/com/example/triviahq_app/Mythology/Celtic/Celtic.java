@@ -2,43 +2,43 @@ package com.example.triviahq_app.Mythology.Celtic;
 
 public class Celtic {
     public String Questions[] = {
-            "What symbol typically denotes Christianity?",
-            "What is the religious text of the Islamic faith?",
-            "What is Jesus in the Islamic faith?",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "Who was the queen of Tír na nÓg",
+            "Who is the Welsh God of the Sea?",
+            "Who is the Irish God of Youth, Love and Poetic Inspiration?",
+            "Who is the Irish God of War?",
+            "Who is the Gaulish God of Smiths?",
+            "Who, or what, is the Celtic personification of Death?",
+            "Who is the Irish God of Speech and Language",
+            "What is the Irish Land of Youth?",
+            "Who is the Irish God of the Underworld?",
+            "Who is the Gaulish Goddess of Horses?"
 
     };
 
     public String Choices[][] = {
-            {"Star of David", "Crucifix", "Crescent and Star", "The Bible"},
-            {"The Torah", "The Bible", "Psalms", "The Quran"},
-            {"The Messiah", "A Prophet", "The Son of God", "The King of Rome"},
-            {"Batman", "Robin", "The Riddler", "The Joker"},
-            {"Plutonian Man", "Saturn Saber", "Atomizer", "Martian Manhunter"},
-            {"The Quantum Realm", "The Phantom Zone", "Asgard", "The BatCave"},
-            {"Black Adam", "Shizzle", "Shazam", "The Magician"},
-            {"Joe Billy Bob", "The Demon's Head", "The Devil's Maker", "The Devourer"},
-            {"Bane", "Kane", "The Joker", "Killer Croc"},
-            {"The Darkness", "The League of Assassins", "The League of Bats", "The League of Shadows"}
+            {"Niamh", "Aranrhod", "Rosmerta", "Arawn"},
+            {"Lir", "Sucellos", "Llyr", "Selkie"},
+            {"Neit", "Aengus", "Llyr", "Selkie"},
+            {"Rosmerta", "Arawn", "Aengus", "Neit"},
+            {"Neit", "Gobannos", "Bucca", "Aengus"},
+            {"Belanos", "Gwydyon", "Lir", "Breton"},
+            {"Ogma", "Grannos", "Annwn", "Arawn"},
+            {"Heaven", "Tír na nÓg", "Hades", "Hel"},
+            {"Arawn", "Kelpie", "Aengus", "Aed"},
+            {"Epona", "Secretariat", "Roach", "Bojack Horseman"}
     };
 
     private String CorrectAnswers[] = {
-            "Crucifix",
-            "The Quran",
-            "A Prophet",
-            "The Joker",
-            "Martian Manhunter",
-            "The Phantom Zone",
-            "Shazam",
-            "The Demon's Head",
-            "Bane",
-            "The League of Assassins"
+            "Niamh",
+            "Llyr",
+            "Aengus",
+            "Neit",
+            "Gobannos",
+            "Breton",
+            "Ogma",
+            "Tír na nÓg",
+            "Aed",
+            "Epona"
     };
 
     public String getQuestion(int a) {
