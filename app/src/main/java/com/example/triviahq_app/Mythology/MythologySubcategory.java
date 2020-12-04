@@ -5,6 +5,8 @@ import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import com.example.triviahq_app.Animals.AnimalSubcategory;
+import com.example.triviahq_app.Animals.Dogs.DogQuestions;
 import com.example.triviahq_app.Mythology.Abrahamic.Abrahamic;
 import com.example.triviahq_app.Mythology.Abrahamic.AbrahamicQuestions;
 import com.example.triviahq_app.Mythology.Celtic.CelticQuestions;
@@ -30,23 +32,23 @@ public class MythologySubcategory extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mythology_subcategory);
 
+
         //pull up the abrahamic category
-        Button abrahamicButton = findViewById(R.id.AbrahamicButton);
-        abrahamicButton.setOnClickListener(new View.OnClickListener() {
+        Button AbrahamicButton = findViewById(R.id.AbrahamicButton);
+        AbrahamicButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent Abrahamic = new Intent(com.example.triviahq_app.Mythology.MythologySubcategory.this, AbrahamicQuestions.class);
+                Intent Abrahamic = new Intent(MythologySubcategory.this, AbrahamicQuestions.class);
                 startActivity(Abrahamic);
             }
         });
 
-
-        //pull up the celtic category
+        //pull up the Celtic category
         Button celticButton = findViewById(R.id.CelticButton);
         celticButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent Celtic = new Intent(com.example.triviahq_app.Mythology.MythologySubcategory.this, CelticQuestions.class);
+                Intent Celtic = new Intent(MythologySubcategory.this, CelticQuestions.class);
                 startActivity(Celtic);
             }
         });

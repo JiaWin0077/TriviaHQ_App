@@ -8,27 +8,27 @@
         tools:context=".Mythology.MythologySubcategory">
 
     <Button
-            android:text="Abrahamic"
+            android:text="Greek/Roman"
             android:layout_width="337dp"
-            android:layout_height="139dp" android:id="@+id/AbrahamicButton"
+            android:layout_height="139dp" android:id="@+id/Greek_RomanButton"
             android:textSize="36sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="366dp" app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="212dp" app:layout_constraintVertical_bias="1.0"/>
     <Button
-            android:text="Celtic"
+            android:text="Abrahamic"
             android:layout_width="337dp"
-            android:layout_height="139dp" android:id="@+id/CelticButton"
+            android:layout_height="139dp" android:id="@+id/AbrahamicButton"
             android:textSize="36sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="24dp" app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="554dp"/>
     <Button
-            android:text="Greek/Roman"
+            android:text="Celtic"
             android:layout_width="337dp"
-            android:layout_height="139dp" android:id="@+id/Greek_RomanButton"
+            android:layout_height="139dp" android:id="@+id/CelticButton"
             android:textSize="36sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
