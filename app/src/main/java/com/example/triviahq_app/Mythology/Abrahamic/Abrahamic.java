@@ -5,13 +5,13 @@ public class Abrahamic {
             "What symbol typically denotes Christianity?",
             "What is the religious text of the Islamic faith?",
             "What is Jesus in the Islamic faith?",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "Which of the following is not an Abrahamic religion",
+            "Judaism developed among the ancient _____",
+            "Jesus is considered the central figure of Christianity, what religion did he practice?",
+            "Jesus' death is considered by Christian scripture to save mankind from original sin. Which group was responsible for his death?",
+            "Who is considered the father of the Jewish religion?",
+            "Jesus Christ was born in _____",
+            "Jesus recruited twelve close followers to preach his teachings known as _____"
 
     };
 
@@ -19,26 +19,26 @@ public class Abrahamic {
             {"Star of David", "Crucifix", "Crescent and Star", "The Bible"},
             {"The Torah", "The Bible", "Psalms", "The Quran"},
             {"The Messiah", "A Prophet", "The Son of God", "The King of Rome"},
-            {"Batman", "Robin", "The Riddler", "The Joker"},
-            {"Plutonian Man", "Saturn Saber", "Atomizer", "Martian Manhunter"},
-            {"The Quantum Realm", "The Phantom Zone", "Asgard", "The BatCave"},
-            {"Black Adam", "Shizzle", "Shazam", "The Magician"},
-            {"Joe Billy Bob", "The Demon's Head", "The Devil's Maker", "The Devourer"},
-            {"Bane", "Kane", "The Joker", "Killer Croc"},
-            {"The Darkness", "The League of Assassins", "The League of Bats", "The League of Shadows"}
+            {"Hinduism", "Islam", "Judaism", "Christianity"},
+            {"Greeks", "Hebrews", "Indians", "Christians"},
+            {"Christianity", "Buddhism", "Islam", "Judaism"},
+            {"The Israelites", "The Romans", "The Greeks", "The Macedonians"},
+            {"Solomon", "Judah", "Abraham", "Moses"},
+            {"Sparta", "Bethlehem", "Athens", "Mecca"},
+            {"Apostles", "Patriarchs", "Zealots", "Messiahs"}
     };
 
     private String CorrectAnswers[] = {
             "Crucifix",
             "The Quran",
             "A Prophet",
-            "The Joker",
-            "Martian Manhunter",
-            "The Phantom Zone",
-            "Shazam",
-            "The Demon's Head",
-            "Bane",
-            "The League of Assassins"
+            "Hinduism",
+            "Hebrews",
+            "Judaism",
+            "The Romans",
+            "Abraham",
+            "Bethlehem",
+            "Apostles"
     };
 
     public String getQuestion(int a) {

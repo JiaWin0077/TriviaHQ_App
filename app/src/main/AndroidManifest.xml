@@ -10,6 +10,12 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+
+        <!--superheroes category -->
+        <activity android:name=".SuperHeroes.SuperHeroesSubcategory">
+        </activity>
+
+        <!--superheroes subcategories-->
         <activity android:name=".SuperHeroes.Other.OtherFinalPage">
         </activity>
         <activity android:name=".SuperHeroes.Other.OtherQuestions">
@@ -22,10 +28,84 @@
         </activity>
         <activity android:name=".SuperHeroes.DC.DCQuestions">
         </activity>
-        <activity android:name=".SuperHeroes.SuperHeroesSubcategory">
+
+        <!--animals category-->
+        <activity android:name=".Animals.AnimalSubcategory">
         </activity>
+
+        <!--animals subcategories-->
         <activity android:name=".Animals.Dogs.DogFinalPage">
         </activity>
+        <activity android:name=".Animals.Dogs.DogQuestions">
+        </activity>
+
+        <!--mythology category-->
+        <activity android:name=".Mythology.MythologySubcategory">
+        </activity>
+
+        <!--mythology subcategories-->
+        <activity android:name=".Mythology.Abrahamic.AbrahamicFinalPage">
+        </activity>
+        <activity android:name=".Mythology.Abrahamic.AbrahamicQuestions">
+        </activity>
+        <activity android:name=".Mythology.Celtic.CelticFinalPage">
+        </activity>
+        <activity android:name=".Mythology.Celtic.CelticQuestions">
+        </activity>
+        <activity android:name=".Mythology.Greek_Roman.Greek_RomanFinalPage">
+        </activity>
+        <activity android:name=".Mythology.Greek_Roman.Greek_RomanQuestions">
+        </activity>
+        <activity android:name=".Mythology.Norse.NorseFinalPage">
+        </activity>
+        <activity android:name=".Mythology.Norse.NorseQuestions">
+        </activity>
+
+        <!--history category-->
+        <activity android:name=".History.HistorySubcategory">
+        </activity>
+
+        <!--history subcategories-->
+        <activity android:name=".History.Ancient.AncientFinalPage">
+        </activity>
+        <activity android:name=".History.Ancient.AncientQuestions">
+        </activity>
+        <activity android:name=".History.ColonialAmerica.ColonialAmericaFinalPage">
+        </activity>
+        <activity android:name=".History.ColonialAmerica.ColonialAmericaQuestions">
+        </activity>
+        <activity android:name=".History.Modern.ModernFinalPage">
+        </activity>
+        <activity android:name=".History.Modern.ModernQuestions">
+        </activity>
+        <activity android:name=".History.Renaissance.RenaissanceFinalPage">
+        </activity>
+        <activity android:name=".History.Renaissance.RenaissanceQuestions">
+        </activity>
+
+        <!--sports category-->
+        <!--
+        <activity android:name=".Sports.SportsSubcategory">
+        </activity>
+        <activity android:name=".Sports.Football.FootballFinalPage">
+        </activity>
+        <activity android:name=".Sports.Football.FootballQuestions">
+        </activity>
+        <activity android:name=".Sports.Basketball.BasketballFinalPage">
+        </activity>
+        <activity android:name=".Sports.Basketball.BasketballQuestions">
+        </activity>
+        <activity android:name=".Sports.Baseball.BaseballFinalPage">
+        </activity>
+        <activity android:name=".Sports.Baseball.BaseballQuestions">
+        </activity>
+        <activity android:name=".Sports.Hockey.HockeyFinalPage">
+        </activity>
+        <activity android:name=".Sports.Hockey.HockeyQuestions">
+        </activity>
+        -->
+
+        <!--menu screen(s)-->
         <activity
                 android:name=".MenuScreen"
                 android:label="Trivia HQ"
@@ -36,14 +116,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
         <activity
                 android:name=".MainActivity"
                 android:label="Trivia HQ Homepage">
         </activity>
-        <activity android:name=".Animals.AnimalSubcategory">
-        </activity>
-        <activity android:name=".Animals.Dogs.DogQuestions">
-        </activity>
+
     </application>
 
 </manifest>
