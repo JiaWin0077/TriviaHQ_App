@@ -25,14 +25,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //History button command
-        Button historyButton = findViewById(R.id.button8);
-        historyButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent History = new Intent(MainActivity.this, HistorySubcategory.class);
-                startActivity(History);
-            }
-        });
 
         //Sports button command
 

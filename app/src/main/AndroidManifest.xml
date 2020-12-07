@@ -10,19 +10,19 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".Animals.Reptile.ReptileFinalPage">
+        <activity android:name=".SuperHeroes.Other.OtherFinalPage">
         </activity>
-        <activity android:name=".Animals.Reptile.ReptileQuestions">
+        <activity android:name=".SuperHeroes.Other.OtherQuestions">
         </activity>
-        <activity android:name=".Animals.Birds.BirdFinalPage">
+        <activity android:name=".SuperHeroes.Marvel.MarvelFinalPage">
         </activity>
-        <activity android:name=".Animals.Birds.BirdQuestions">
+        <activity android:name=".SuperHeroes.Marvel.MarvelQuestions">
         </activity>
-        <activity android:name=".HistorySubcategory">
+        <activity android:name=".SuperHeroes.DC.DCFinalPage">
         </activity>
-        <activity android:name=".Animals.Cats.CatsFinalPage">
+        <activity android:name=".SuperHeroes.DC.DCQuestions">
         </activity>
-        <activity android:name=".Animals.Cats.CatsQuestions">
+        <activity android:name=".SuperHeroes.SuperHeroesSubcategory">
         </activity>
         <activity android:name=".Animals.Dogs.DogFinalPage">
         </activity>
