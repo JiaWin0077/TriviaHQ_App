@@ -6,8 +6,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import com.example.triviahq_app.Animals.Dogs.DogQuestions;
-import com.example.triviahq_app.Animals.Dogs.Dogs;
 import com.example.triviahq_app.MenuScreen;
 import com.example.triviahq_app.R;
 
