@@ -16,7 +16,8 @@
             android:layout_marginEnd="24dp" android:layout_marginRight="24dp"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="410dp"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="233dp"/>
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="233dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
     <Button
             android:text="ButtonA"
             android:layout_width="367dp"
@@ -26,7 +27,7 @@
             android:layout_marginRight="24dp" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0" app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="319dp" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="324dp"/>
+            android:layout_marginBottom="324dp" android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
     <Button
             android:text="ButtonC"
             android:layout_width="367dp"
@@ -36,7 +37,8 @@
             android:layout_marginEnd="24dp" android:layout_marginRight="24dp"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="504dp"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="139dp"/>
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="139dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
     <Button
             android:text="ButtonD"
             android:layout_width="367dp"
@@ -46,7 +48,8 @@
             android:layout_marginEnd="24dp" android:layout_marginRight="24dp"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="602dp"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="41dp"/>
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="41dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
     <TextView
             android:text="Question"
             android:layout_width="363dp"
