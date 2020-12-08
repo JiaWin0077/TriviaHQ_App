@@ -22,10 +22,10 @@ public class Renaissance {
             {"His surname", "The town he was from", "His adoptive family's name", "He made it up"},
             {"The Acciaioli's", "The Gaddi's", "The Medici's", "The Salviati's"},
             {"Chaucer", "Alighieri", "Shakespeare", "Machiavelli"},
-            {"Proportions of the human body", "The creation of man", "Himself", "Julius Caesar"},
+            {"Proportions of the body", "The creation of man", "Himself", "Julius Caesar"},
             {"Beginning", "Rebirth", "Recollection", "Review"},
             {"Hinduism", "Protestantism", "Catholicism", "Paganism"},
-            {"The heliocentric model", "The nature of the human anatomy", "The theory of gravity", "Calculus"}
+            {"Heliocentric model", "Nature of anatomy", "Theory of gravity", "Calculus"}
     };
 
     private String mCorrectAnswers[] = {
@@ -35,10 +35,10 @@ public class Renaissance {
         "The town he was from",
         "The Medici’s",
         "Machiavelli",
-        "Proportions of the human body",
+        "Proportions of the body",
         "Rebirth",
         "Protestantism",
-        "The heliocentric model"
+        "Heliocentric model"
     };
 
     public String getQuestion(int a) {
