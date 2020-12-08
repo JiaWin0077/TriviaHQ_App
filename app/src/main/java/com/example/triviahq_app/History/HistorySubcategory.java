@@ -16,7 +16,7 @@ public class HistorySubcategory extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_h);
+        setContentView(R.layout.activity_history_subcategory);
 
         //Move to ancient questions if clicked on ancient category
         Button AncientButton = findViewById(R.id.Button1);

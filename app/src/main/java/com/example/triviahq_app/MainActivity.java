@@ -6,6 +6,9 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import com.example.triviahq_app.Animals.AnimalSubcategory;
+import com.example.triviahq_app.History.HistorySubcategory;
+import com.example.triviahq_app.Mythology.MythologySubcategory;
+import com.example.triviahq_app.SuperHeroes.SuperHeroesSubcategory;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,12 +28,36 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //History button command
+        Button hisButton = findViewById(R.id.HistoryButton);
+        hisButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent History = new Intent(MainActivity.this, HistorySubcategory.class);
+                startActivity(History);
+            }
+        });
 
         //Sports button command
 
-        //Norse Myth button command
+        //Myth button command
+        Button mythButton = findViewById(R.id.MythologyButton);
+        mythButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Myth = new Intent(MainActivity.this, MythologySubcategory.class);
+                startActivity(Myth);
+            }
+        });
 
         //Superheroes button command
+        Button shButton = findViewById(R.id.SuperHerosButton);
+        shButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Super = new Intent(MainActivity.this, SuperHeroesSubcategory.class);
+                startActivity(Super);
+            }
+        });
 
     }
 
