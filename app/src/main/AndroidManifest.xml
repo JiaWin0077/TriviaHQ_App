@@ -38,6 +38,18 @@
         </activity>
         <activity android:name=".Animals.Dogs.DogQuestions">
         </activity>
+        <activity android:name=".Animals.Cats.CatsQuestions">
+        </activity>
+        <activity android:name=".Animals.Cats.CatsFinalPage">
+        </activity>
+        <activity android:name=".Animals.Birds.BirdQuestions">
+        </activity>
+        <activity android:name=".Animals.Birds.BirdFinalPage">
+        </activity>
+        <activity android:name=".Animals.Reptile.ReptileQuestions">
+        </activity>
+        <activity android:name=".Animals.Reptile.ReptileFinalPage">
+        </activity>
 
         <!--mythology category-->
         <activity android:name=".Mythology.MythologySubcategory">

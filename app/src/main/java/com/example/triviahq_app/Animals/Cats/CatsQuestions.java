@@ -49,7 +49,7 @@ public class CatsQuestions extends AppCompatActivity {
                     updateScore(currentScore);
 
                     if (questionNum == Cats.mQuestions.length) {
-                        Intent i = new Intent(CatsQuestions.this, DogFinalPage.class);
+                        Intent i = new Intent(CatsQuestions.this, CatsFinalPage.class);
                         Bundle bundle = new Bundle();
                         bundle.putInt("finalScore", currentScore);
                         i.putExtras(bundle);
@@ -62,7 +62,7 @@ public class CatsQuestions extends AppCompatActivity {
 
                 else {
                     if (questionNum == Cats.mQuestions.length) {
-                        Intent i = new Intent(CatsQuestions.this, DogFinalPage.class);
+                        Intent i = new Intent(CatsQuestions.this, CatsFinalPage.class);
                         Bundle bundle = new Bundle();
                         bundle.putInt("finalScore", currentScore);
                         i.putExtras(bundle);
@@ -87,7 +87,7 @@ public class CatsQuestions extends AppCompatActivity {
                     updateScore(currentScore);
 
                     if (questionNum == Cats.mQuestions.length) {
-                        Intent i = new Intent(CatsQuestions.this, DogFinalPage.class);
+                        Intent i = new Intent(CatsQuestions.this, CatsFinalPage.class);
                         Bundle bundle = new Bundle();
                         bundle.putInt("finalScore", currentScore);
                         i.putExtras(bundle);
@@ -100,7 +100,7 @@ public class CatsQuestions extends AppCompatActivity {
 
                 else {
                     if (questionNum == Cats.mQuestions.length) {
-                        Intent i = new Intent(CatsQuestions.this, DogFinalPage.class);
+                        Intent i = new Intent(CatsQuestions.this, CatsFinalPage.class);
                         Bundle bundle = new Bundle();
                         bundle.putInt("finalScore", currentScore);
                         i.putExtras(bundle);
@@ -124,7 +124,7 @@ public class CatsQuestions extends AppCompatActivity {
                     updateScore(currentScore);
 
                     if (questionNum == Cats.mQuestions.length) {
-                        Intent i = new Intent(CatsQuestions.this, DogFinalPage.class);
+                        Intent i = new Intent(CatsQuestions.this, CatsFinalPage.class);
                         Bundle bundle = new Bundle();
                         bundle.putInt("finalScore", currentScore);
                         i.putExtras(bundle);
@@ -137,7 +137,7 @@ public class CatsQuestions extends AppCompatActivity {
 
                 else {
                     if (questionNum == Cats.mQuestions.length) {
-                        Intent i = new Intent(CatsQuestions.this, DogFinalPage.class);
+                        Intent i = new Intent(CatsQuestions.this, CatsFinalPage.class);
                         Bundle bundle = new Bundle();
                         bundle.putInt("finalScore", currentScore);
                         i.putExtras(bundle);
@@ -161,7 +161,7 @@ public class CatsQuestions extends AppCompatActivity {
                     updateScore(currentScore);
 
                     if (questionNum == Cats.mQuestions.length) {
-                        Intent i = new Intent(CatsQuestions.this, DogFinalPage.class);
+                        Intent i = new Intent(CatsQuestions.this, CatsFinalPage.class);
                         Bundle bundle = new Bundle();
                         bundle.putInt("finalScore", currentScore);
                         i.putExtras(bundle);
@@ -174,7 +174,7 @@ public class CatsQuestions extends AppCompatActivity {
 
                 else {
                     if (questionNum == Cats.mQuestions.length) {
-                        Intent i = new Intent(CatsQuestions.this, DogFinalPage.class);
+                        Intent i = new Intent(CatsQuestions.this, CatsFinalPage.class);
                         Bundle bundle = new Bundle();
                         bundle.putInt("finalScore", currentScore);
                         i.putExtras(bundle);
