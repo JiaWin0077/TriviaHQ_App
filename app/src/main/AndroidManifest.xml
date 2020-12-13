@@ -11,11 +11,29 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
 
-        <!--superheroes category -->
-        <activity android:name=".SuperHeroes.SuperHeroesSubcategory">
+        <!-- sports category -->
+        <activity android:name=".Sports.Baseball.BaseballQuestions">
         </activity>
+        <activity android:name=".Sports.Baseball.BaseballFinalPage">
+        </activity>
+        <activity android:name=".Sports.Basketball.BasketballFinalPage">
+        </activity>
+        <activity android:name=".Sports.Basketball.BasketballQuestions">
+        </activity>
+        <activity android:name=".Sports.Football.FootballFinalPage">
+        </activity>
+        <activity android:name=".Sports.Football.FootballQuestions">
+        </activity>
+        <activity android:name=".Sports.Hockey.HockeyFinalPage">
+        </activity>
+        <activity android:name=".Sports.Hockey.HockeyQuestions">
+        </activity>
+        <activity android:name=".Sports.SportsSubcategory">
 
-        <!--superheroes subcategories-->
+        </activity> <!-- superheroes category -->
+        <activity android:name=".SuperHeroes.SuperHeroesSubcategory">
+
+        </activity> <!-- superheroes subcategories -->
         <activity android:name=".SuperHeroes.Other.OtherFinalPage">
         </activity>
         <activity android:name=".SuperHeroes.Other.OtherQuestions">
@@ -27,13 +45,11 @@
         <activity android:name=".SuperHeroes.DC.DCFinalPage">
         </activity>
         <activity android:name=".SuperHeroes.DC.DCQuestions">
-        </activity>
 
-        <!--animals category-->
+        </activity> <!-- animals category -->
         <activity android:name=".Animals.AnimalSubcategory">
-        </activity>
 
-        <!--animals subcategories-->
+        </activity> <!-- animals subcategories -->
         <activity android:name=".Animals.Dogs.DogFinalPage">
         </activity>
         <activity android:name=".Animals.Dogs.DogQuestions">
@@ -49,13 +65,11 @@
         <activity android:name=".Animals.Reptile.ReptileQuestions">
         </activity>
         <activity android:name=".Animals.Reptile.ReptileFinalPage">
-        </activity>
 
-        <!--mythology category-->
+        </activity> <!-- mythology category -->
         <activity android:name=".Mythology.MythologySubcategory">
-        </activity>
 
-        <!--mythology subcategories-->
+        </activity> <!-- mythology subcategories -->
         <activity android:name=".Mythology.Abrahamic.AbrahamicFinalPage">
         </activity>
         <activity android:name=".Mythology.Abrahamic.AbrahamicQuestions">
@@ -71,13 +85,11 @@
         <activity android:name=".Mythology.Norse.NorseFinalPage">
         </activity>
         <activity android:name=".Mythology.Norse.NorseQuestions">
-        </activity>
 
-        <!--history category-->
+        </activity> <!-- history category -->
         <activity android:name=".History.HistorySubcategory">
-        </activity>
 
-        <!--history subcategories-->
+        </activity> <!-- history subcategories -->
         <activity android:name=".History.Ancient.AncientFinalPage">
         </activity>
         <activity android:name=".History.Ancient.AncientQuestions">
@@ -95,29 +107,7 @@
         <activity android:name=".History.Renaissance.RenaissanceQuestions">
         </activity>
 
-        <!--sports category-->
-        <!--
-        <activity android:name=".Sports.SportsSubcategory">
-        </activity>
-        <activity android:name=".Sports.Football.FootballFinalPage">
-        </activity>
-        <activity android:name=".Sports.Football.FootballQuestions">
-        </activity>
-        <activity android:name=".Sports.Basketball.BasketballFinalPage">
-        </activity>
-        <activity android:name=".Sports.Basketball.BasketballQuestions">
-        </activity>
-        <activity android:name=".Sports.Baseball.BaseballFinalPage">
-        </activity>
-        <activity android:name=".Sports.Baseball.BaseballQuestions">
-        </activity>
-        <activity android:name=".Sports.Hockey.HockeyFinalPage">
-        </activity>
-        <activity android:name=".Sports.Hockey.HockeyQuestions">
-        </activity>
-        -->
-
-        <!--menu screen(s)-->
+        <!-- menu screen(s) -->
         <activity
                 android:name=".MenuScreen"
                 android:label="Trivia HQ"
@@ -128,12 +118,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
         <activity
                 android:name=".MainActivity"
                 android:label="Trivia HQ Homepage">
         </activity>
-
     </application>
 
 </manifest>

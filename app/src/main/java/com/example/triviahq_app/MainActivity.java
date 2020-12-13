@@ -8,6 +8,7 @@ import android.os.Bundle;
 import com.example.triviahq_app.Animals.AnimalSubcategory;
 import com.example.triviahq_app.History.HistorySubcategory;
 import com.example.triviahq_app.Mythology.MythologySubcategory;
+import com.example.triviahq_app.Sports.SportsSubcategory;
 import com.example.triviahq_app.SuperHeroes.SuperHeroesSubcategory;
 
 public class MainActivity extends AppCompatActivity {
@@ -38,6 +39,14 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Sports button command
+        Button sportsButton = findViewById(R.id.Sportsbutton);
+        sportsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Sports = new Intent(MainActivity.this, SportsSubcategory.class);
+                startActivity(Sports);
+            }
+        });
 
         //Myth button command
         Button mythButton = findViewById(R.id.MythologyButton);

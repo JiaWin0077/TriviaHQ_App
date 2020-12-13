@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".History.ColonialAmerica.ColonialAmericaQuestions">
+        tools:context=".History.ColonialAmerica.ColonialAmericaQuestions" android:background="#52B5EA">
 
     <Button
             android:text="ButtonB"

@@ -5,16 +5,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.MenuScreen">
+        android:background="#52B5EA">
 
-    <ImageView
-            android:src="@drawable/trivia_hq_logo"
-            android:layout_width="341dp"
-            android:layout_height="201dp" android:id="@+id/imageView" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="64dp" android:layout_marginEnd="32dp" android:layout_marginRight="32dp"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="452dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="38dp" android:layout_marginStart="38dp"/>
     <Button
             android:text="Play Game"
             android:layout_width="341dp"
@@ -32,4 +24,11 @@
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.663"
             android:textSize="36sp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/word_art__2_" android:id="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="216dp"
+            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="0.0"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
